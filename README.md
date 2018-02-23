@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Things you need to install :
 
-* Ruby version
+* Remove comments from gemfile on gem 'rack-cors' and in confi/initialize/cors.rb
 
-* System dependencies
+* https://github.com/plataformatec/devise
+	gem "devise", "~> 4.3.0"
 
-* Configuration
+* https://github.com/gonzalo-bulnes/simple_token_authentication
+	gem 'simple_token_authentication', '~> 1.0' # see semver.org
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
